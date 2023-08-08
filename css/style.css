@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.position-img {
+    background-image: url(../images/design1_image1.jpg);
+    background-position: center center;
+    padding: 1rem;
+    margin: 70px 30px 0 30px;
+    height: 30vh;
+    background-size: cover;
+}
+
+.position-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    position: absolute;
+    right: 2rem;
+    top: 5vh;
+}
+
+.buttons {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.title2 {
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    padding: 5px;
+}
+
+.button-color-green {
+    background-color: rgb(48, 170, 48);
+    padding: 5px 10px 5px 10px;
+}
+
+.button-color-blue {
+    background-color: rgb(83, 83, 238);
+    padding: 5px 10px 5px 10px;
+}
+
+.color-white{
+    color: white;
+}
+
+.section-logo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: 40px;
+}
+
+.text2 {
+    margin-bottom: 15px;
+}
+
+.space {
+    margin-left: 10px;
+}
+
+.title{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 3rem;
+}
+
+.text1 {
+    margin-top: 15px;
+}
+
+.logo1 {
+    width: 150px;
+    height: 150px;
+}
